@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    max-width: 1349px;
+    font-family: quicksand;
+    /* background-image: url('/B11-A2-Kids-School/assets/bg.png'); */
+}
+
+/* navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar-toggle{
+    display: none;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background: black;
+}
+
+.logo{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item{
+    font-weight: bold;
+}
+
+.items{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px 30px;
+    color: white;
+    font-family: quicksand;
+    font-weight: bold;
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* banner */
+
+.banner{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 132px 0px 120px;
+    gap: 10px;
+}
+
+
+.ban-title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    /* margin: 0; */
+}
+
+.description{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+.bttn{
+    font-family: quicksand;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: black;
+    padding: 10px 30px;
+}
+
+/* marrquee */
+
+marquee{
+    border-top: 1px solid #DEF5FF;
+    border-bottom: 1px solid #DEF5FF;
+    margin-top: 50px;
+    font-size: medium;
+    padding: 0 70PX;
+}
+
+
+/* main */
+
+main{
+    background-image: url('/B11-A2-Kids-School/assets/bg.png'),linear-gradient(white,rgb(255, 244, 220));
+}
+
+/* card */
+
+.cards{
+    margin-top: 10px;
+    text-align: center;
+    
+}
+
+.c-title{
+    font-size: 1.95rem;
+    font-weight: 700;
+}
+
+.all-card{
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    display: flex;
+    gap: 30px;
+    padding: 0 120px;
+}
+
+.card1{
+    /* align-items: center;
+    justify-content: center; */
+    background-image: linear-gradient(rgb(222, 245, 255),white);
+    text-align: center;
+    padding: 18px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+.card2{
+    /* align-items: center;
+    justify-content: center; */
+    background-image: linear-gradient(rgb(255, 244, 220),white);
+    text-align: center;
+    padding: 18px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+.card3{
+    /* align-items: center;
+    justify-content: center; */
+    background-image: linear-gradient(rgb(242, 232, 255),white);
+    text-align: center;
+    padding: 18px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+
+.btnn{
+    border: none;
+    background: none;
+    margin-top: 20px;
+}
+
+.chevron-btn{
+    margin: 20px 0px;
+    border-radius: 45px;
+    padding: 10px 15px;
+    color: aliceblue;
+    border: none;
+    background-color: rgb(254, 163, 1);
+}
+
+
+
+
+/* story */
+.stories{
+    text-align: center;
+}
+
+.card-container{
+    padding: 0 120px;
+    display: flex;
+}
+
+.cardss{
+    padding: 0 10px;
+    display: flex;   
+}
+
+.cardss1{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px;
+    
+}
+
+
+
+
+.story-card{
+
+    border-radius: 10px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+}
+
+
+
+.time{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;    
+}
+
+
+.story-img-1{
+    width: 100%;
+
+}
+
+
+
+
+.img-con{
+    text-align: start;
+    padding: 0 20px;
+    font-size: 0.75rem;
+}
+.img-con-1{
+    text-align: start;
+    padding: 0 30px;
+}
+
+.imgg-1{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.imgg{
+    width: 100%;
+    background-position: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.imgg-1{
+    border-radius: 5px;
+}
+
+
+.nov-1{
+    position: relative;
+    right: 32%;
+    bottom: 22px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(60, 216, 232);
+    font-weight: 700;
+}
+.nov{
+    position: relative;
+    right: 15%;
+    bottom: 17px;
+    padding: 5px 5px;
+    font-size: 0.75rem;
+    border-radius: 25px;
+    border: none;
+    color: aliceblue;
+    background-color: rgb(60, 216, 232);
+    font-weight: 700;
+}
+
+
+.btn-item{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnnn{
+    margin: 20px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+
+/* footer */
+
+footer{
+    color: aliceblue;
+    background-color: rgb(1, 172, 253);
+    padding: 50px 130px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 120px;
+    
+}
+
+.footer-logo{
+    display: flex;
+    gap: 10px;
+}
+
+.kids{
+    font-size: 1.55rem;
+}
+
+.about-scl{
+    list-style: none;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.keeps{
+    margin-left: 40px;
+}
+
+.icon{
+    list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    .scl ,.btn,.items{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.7rem;
+        /* position: absolute; */
+        height: 100vh;
+        width: 250px;
+        top: 0;
+        right: 0;
+        padding: 5rem 1.5rem;
+        display: none;
+        
+    }
+    .navbar-toggle{
+        display: block;
+        /* z-index: 99; */
+        margin-left: 250px;
+        
+    }
+
+    .navbar{
+        justify-content:space-around;
+        /* align-items: center; */
+        
+    }
+    .logo{
+        padding: 0 20px;
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+        padding: 0 10px;
+    }
+    .banner-content{
+        text-align: center;
+        align-items: center;
+        padding: 0 50px;
+    }
+    
+    .banner-image{
+        max-width: 100%;
+    }
+    .all-card{
+        flex-direction: column;
+        max-width: 100%;
+        padding: 30px;
+    }
+
+    .card-container{
+        padding: 20px;
+        flex-direction: column;
+        /* margin-bottom: 15px; */
+        gap: 10px;
+    }
+    .nov-1{
+        right: 10px;
+    }
+
+    .cardss1{
+        padding: 0 12px;
+    }
+    
+
+
+
+    
+
+    footer{
+        grid-template-columns: repeat(1,1fr);
+        gap: 0;
+        padding:30px;
+    }
+    .about-scl{
+        padding: 0;
+    }
+    .keeps{
+        /* padding: 0; */
+        margin-left: 0;
+    }
+    .icon{
+        padding: 0;
+    }
+    
+}
+
