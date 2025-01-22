@@ -377,7 +377,7 @@ footer{
     }
     
     .banner-image{
-        max-width: 100%;
+        width:100%;
     }
     .all-card{
         flex-direction: column;
