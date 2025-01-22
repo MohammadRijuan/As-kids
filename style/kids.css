@@ -4,7 +4,7 @@
 body{
     margin: 0 auto;
     padding: 0 auto;
-    max-width: 1349px;
+    max-width: 1440px;
     font-family: quicksand;
     /* background-image: url('/B11-A2-Kids-School/assets/bg.png'); */
 }
@@ -376,7 +376,7 @@ footer{
         padding: 0 50px;
     }
     
-    .banner-image{
+    .banner-image img{
         width:100%;
     }
     .all-card{
