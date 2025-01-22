@@ -338,7 +338,7 @@ footer{
 @media screen and (max-width:576px) {
     nav{
         border-bottom: 1px solid #fea301;
-        padding: 15px 10px;
+        padding: 15px 0px;
     }
 
     .scl ,.btn,.items{
