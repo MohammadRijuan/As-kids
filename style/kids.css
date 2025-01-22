@@ -336,6 +336,10 @@ footer{
 
 
 @media screen and (max-width:576px) {
+    nav{
+        border-bottom: 1px solid #fea301;
+        padding: 15px 10px;
+    }
 
     .scl ,.btn,.items{
         flex-direction: column;
@@ -353,7 +357,7 @@ footer{
     .navbar-toggle{
         display: block;
         /* z-index: 99; */
-        margin-left: 250px;
+        margin-left: 150px;
         
     }
 
